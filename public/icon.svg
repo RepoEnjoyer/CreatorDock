@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">CreatorDock</title>
+  <rect width="128" height="128" rx="30" fill="#153c32"/>
+  <path d="M25 35c0-6 4-10 10-10h38c6 0 10 4 10 10v48c0 6-4 10-10 10H35c-6 0-10-4-10-10V35Z" fill="#f8f3e8"/>
+  <path d="M45 47h51c5 0 9 4 9 9v40c0 5-4 9-9 9H45c-5 0-9-4-9-9V56c0-5 4-9 9-9Z" fill="#ff765f" stroke="#153c32" stroke-width="6"/>
+  <path d="M53 64h35M53 76h27M53 88h18" stroke="#153c32" stroke-width="6" stroke-linecap="round"/>
+</svg>

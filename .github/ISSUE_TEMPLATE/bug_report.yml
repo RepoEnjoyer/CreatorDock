@@ -1,0 +1,59 @@
+name: Bug report
+description: Report a reproducible problem in CreatorDock.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping improve CreatorDock. Do not include private project content, personal information, credentials, or security vulnerability details.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+      placeholder: A clear description without private workspace data.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      placeholder: |
+        1. Open...
+        2. Select...
+        3. Observe...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: CreatorDock version or commit
+      placeholder: v1.0.0
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: Firefox 128
+    validations:
+      required: true
+  - type: dropdown
+    id: storage
+    attributes:
+      label: Does the browser show a storage warning?
+      options:
+        - "No"
+        - "Yes"
+        - "Not sure"
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Safety check
+      options:
+        - label: I removed personal data, private links, credentials, and sensitive project content from this report.
+          required: true
+        - label: This is not a security vulnerability. I will use the private process in SECURITY.md for security reports.
+          required: true

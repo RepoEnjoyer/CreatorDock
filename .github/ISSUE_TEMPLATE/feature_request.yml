@@ -1,0 +1,43 @@
+name: Feature request
+description: Propose a focused improvement to a creator workflow.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: CreatorDock protects a local-first, no-account core. Explain the workflow before suggesting an interface.
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Creator workflow
+      description: What are you trying to finish, and where does the current process get in the way?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Describe the smallest useful change.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What do you do today, inside or outside CreatorDock?
+  - type: textarea
+    id: privacy
+    attributes:
+      label: Privacy and offline impact
+      description: Would this need network access, credentials, new stored data, or a third-party service?
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: The core feature can work without a paid service.
+          required: true
+        - label: I removed private project content and identifying information.
+          required: true

@@ -1,0 +1,17 @@
+{
+  "name": "CreatorDock",
+  "short_name": "CreatorDock",
+  "description": "A private, local-first creator workspace.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f1e8",
+  "theme_color": "#153c32",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
